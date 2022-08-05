@@ -547,6 +547,56 @@ body {
   background-color: var(--accent-text-color);
   fill: var(--color-text-white);
 }
+.footer-social {
+  margin-right: 93px;
+}
+
+.signup-form {
+  display: flex;
+}
+
+.form-input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 16px;
+  color: rgba(255, 255, 255, 0.6);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+
+  margin-right: 12px;
+}
+
+.button-sign-up {
+  display: flex;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  align-items: center;
+
+  justify-content: center;
+  letter-spacing: 0.06em;
+
+  color: var(--color-text-white);
+
+  background-color: transparent;
+  border: none;
+  border-radius: 4px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icon-send {
+  margin-left: 10px;
+}
+.signup-form:hover .button-sign-up,
+.form-input:focus + .button-sign-up {
+  background-color: var(--accent-text-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
 
 /*Portfolio*/
 .our-works {
