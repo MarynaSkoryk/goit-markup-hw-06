@@ -805,10 +805,12 @@ body {
 
   border-radius: 4px;
   padding: 11px 30px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-input:focus {
-  border: 1px solid #2196f3;
+.modal-input:focus,
+.user-feedback:focus {
+  border: 1px solid var(--accent-text-color);
 }
 
 .modal-input:focus + .modal-icon {
@@ -837,6 +839,7 @@ input:focus {
   border-radius: 4px;
   resize: none;
   margin-bottom: 20px;
+  transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .feedback textarea::placeholder {
