@@ -807,7 +807,7 @@ body {
   padding: 11px 30px;
 }
 
-.modal-input:focus {
+input:focus {
   border: 1px solid #2196f3;
 }
 
