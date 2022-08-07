@@ -876,7 +876,7 @@ body {
 .modal-input:focus + .modal-icon {
   fill: var(--accent-text-color);
 }
-.my-checkbox:checked ~ .privacy-policy::before {
+.my-checkbox:checked + .privacy-policy::before {
   background-color: var(--accent-text-color);
   border-color: var(--accent-text-color);
   background-image: url(../images/icons.svg#checked);
